@@ -17,3 +17,4 @@ let onceFn = once(fn);
 
 console.log(onceFn(1, 2, 3)); // 6
 console.log(onceFn(2, 3, 6)); // returns undefined without calling fn
+console.log(onceFn(4, 5, 6)); // undefined
